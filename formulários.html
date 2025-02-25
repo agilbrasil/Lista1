@@ -147,170 +147,211 @@
   </form>
 
   <h5>Formulário 3</h5>
-    <form method="post">   
-      <div class="mb-3">
-          <label for="fantasia" class="form-label">Partner Name</label>
-          <input type="text" id="fantasia" name="fantasia" class="form-control" required="">
-      </div>
+  <h4 class="col-8">Sample Form</h4>
+  <form method="post">
+    <div class="row">
+        <div class="col-4">
+            <label for="fantasia" class="form-label">Partner Name</label>
+            <input type="text" id="fantasia" name="fantasia" class="form-control" required="">
+        </div>
+        
+        <div class="col-4">
+        <label for="email" class="form-label">Partner Email ID</label>
+        <input type="email" id="email" name="email" class="form-control" required="">
+        </div>
+    </div>
+        
+    <div class="row">
+        <div class="col-4">
+            <label for="nome" class="form-label">Partner Legal Name</label>
+            <input type="text" id="nome" name="nome" class="form-control" required="">
+        </div>
+        
+        <div class="col-4">
+            <label for="celular" class="form-label">Partner Mobile</label>
+            <input type="number" id="celular" name="celular" class="form-control" required="">
+        </div>
+    </div>   
 
-      <div class="mb-3">
-          <label for="email" class="form-label">Partner Email ID</label>
-          <input type="email" id="email" name="email" class="form-control" required="">
-      </div>
+    <div class="row">
+        <div class="col-8">
+            <label for="endereco" class="form-label">Partner Address</label>
+            <textarea id="endereco" name="endereco" class="form-control" rows="4" required="" placeholder="Professora Vanessa, não consegui colocar os labels a esquerda dos inputs."></textarea>
+        </div>
+    </div>
 
-      <div class="mb-3">
-          <label for="nome" class="form-label">Partner Legal Name</label>
-          <input type="text" id="nome" name="nome" class="form-control" required="">
-      </div>
+<div class="row">
+  <div class="col-4">
+      <label for="data_inicio" class="form-label">Contract Start Date</label>
+      <input type="date" id="data_inicio" name="data_inicio" class="form-control">
+  </div>
 
-      <div class="mb-3">
-          <label for="celular" class="form-label">Partner Mobile</label>
-          <input type="number" id="celular" name="celular" class="form-control" required="">
-      </div>
+  <div class="col-4">
+      <label for="data_fim" class="form-label">Contract Expiry Date</label>
+      <input type="date" id="data_fim" name="data_fim" class="form-control">
+  </div>
+</div>
 
-      <div class="mb-3">
-          <label for="endereco" class="form-label">Partner Address</label>
-          <textarea id="endereco" name="endereco" class="form-control" rows="4" required=""></textarea>
-      </div>
+<div class="row">
+  <div class="col-4">
+      <label for="minimo" class="form-label">Minimum Loan Amount</label>
+      <input type="number" id="minimo" name="minimo" class="form-control" required="">
+  </div>
 
-      <div class="mb-3">
-          <label for="data_inicio" class="form-label">Contract Start Date</label>
-          <input type="date" id="data_inicio" name="data_inicio" class="form-control">
-      </div>
+  <div class="col-4">
+      <label for="maximo" class="form-label">Mamimum Loan Amount</label>
+      <input type="number" id="maximo" name="maximo" class="form-control" required="">
+  </div>
+</div>
 
-      <div class="mb-3">
-          <label for="data_fim" class="form-label">Contract Expiry Date</label>
-          <input type="date" id="data_fim" name="data_fim" class="form-control">
-      </div>
+<div class="row">
+  <div class="col-4">
+      <label for="taxa" class="form-label">Intereset Rate</label>
+      <input type="number" id="taxa" name="taxa" class="form-control" required="">
+  </div>
 
-      <div class="mb-3">
-          <label for="minimo" class="form-label">Minimum Loan Amount</label>
-          <input type="number" id="minimo" name="minimo" class="form-control" required="">
-      </div>
+  <div class="col-4">
+      <label for="deposito" class="form-label">Deposit Amount</label>
+      <input type="number" id="deposito" name="deposito" class="form-control" required="">
+  </div>
+</div>
 
-      <div class="mb-3">
-          <label for="maximo" class="form-label">Mamimum Loan Amount</label>
-          <input type="number" id="maximo" name="maximo" class="form-control" required="">
-      </div>
-
-      <div class="mb-3">
-          <label for="taxa" class="form-label">Intereset Rate</label>
-          <input type="number" id="taxa" name="taxa" class="form-control" required="">
-      </div>
-
-      <div class="mb-3">
-          <label for="deposito" class="form-label">Deposit Amount</label>
-          <input type="number" id="deposito" name="deposito" class="form-control" required="">
-      </div>
-
-    <button type="submit" class="btn btn-primary">Enviar</button>
-  </form>
+<div class="row mt-3">
+    <div class="col-8 d-grid gap-2 d-md-flex justify-content-md-center">
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+</div>
+</form>
 
   <h5>Formulário 4</h5>
-    <form method="post">   
-      <div class="mb-3">
-          <label for="nome" class="form-label">Nome:</label>
-          <input type="text" id="nome" name="nome" class="form-control" required="">
-      </div>
+  <h4>Novo Usuário</h4>
+    <form method="post">
+    <div class="row">            
+        <div class="col-12">
+            <label for="nome" class="form-label">Nome:</label>
+            <input type="text" id="nome" name="nome" class="form-control" required="">
+        </div>
+    </div>
 
-      <div class="mb-3">
-          <label for="cpf" class="form-label">CPF</label>
-          <input type="number" id="cpf" name="cpf" class="form-control" required="">
-      </div>
+    <div class="row">            
+        <div class="col-3">
+            <label for="cpf" class="form-label">CPF:</label>
+            <input type="number" id="cpf" name="cpf" class="form-control" required="">
+        </div>
 
-      <div class="mb-3">
-          <label for="endereco" class="form-label">Endereço</label>
-          <input type="text" id="endereco" name="endereco" class="form-control" required="">
-      </div>
+        <div class="col-7">
+            <label for="endereco" class="form-label">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" class="form-control" required="">
+        </div>
 
-      <div class="mb-3">
-          <label for="nivel" class="form-label">Nivel</label>
-          <select id="nivel" name="nivel" class="form-select" required="">
-              <option value="Junior">Junior</option><option value="Pleno">Pleno</option><option value="Senior">Senior</option>
-          </select>
-      </div>
+        <div class="col-2">
+            <label for="nivel" class="form-label">Nivel:</label>
+            <select id="nivel" name="nivel" class="form-select" required="">
+                <option value="Junior">Junior</option><option value="Pleno">Pleno</option><option value="Senior">Senior</option>
+            </select>
+        </div>
+    </div>
 
-      <div class="mb-3">
-          <label for="email" class="form-label">Email:</label>
-          <input type="email" id="email" name="email" class="form-control" required="">
-      </div>
+    <div class="row">            
+        <div class="col-6">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" id="email" name="email" class="form-control" required="">
+        </div>
 
-      <div class="mb-3">
-          <label for="senha" class="form-label">Senha:</label>
-          <input type="password" id="senha" name="senha" class="form-control" required="">
-      </div>
+        <div class="col-4">
+            <label for="senha" class="form-label">Senha:</label>
+            <input type="password" id="senha" name="senha" class="form-control" required="">
+        </div>
 
-      <div class="mb-3">
-          <label for="status" class="form-label">Status:</label>
-          <select id="status" name="status" class="form-select" required="">
-              <option value="Logon">Logon</option><option value="Logoff">Logoff</option>
-          </select>
-      </div>
+        <div class="col-2">
+            <label for="status" class="form-label">Status:</label>
+            <select id="status" name="status" class="form-select" required="">
+                <option value="Logon">Logon</option><option value="Logoff">Logoff</option>
+            </select>
+        </div>
+    </div>
 
       <div class="row mt-3">
         <div class="col d-grid gap-2 d-md-flex justify-content-md-end">  
             <button type="reset" class="btn btn-success">Enviar</button>
-            <button type="submit" class="btn btn-secundary">Cancelar</button>
+            <button type="submit" id="cancel_form4" class="btn btn-secundary">Cancelar</button>
         </div>
   </form>
 
   <h5>Formulário 5</h5>
-    
+  <main class="form5">
     <form method="post">
-                          
-      <div class="mb-3">
-          <label for="nome" class="form-label">First name</label>
-          <input type="text" id="nome" name="nome" class="form-control" required="">
-      </div>
+        <h4>Billing address</h4>
+                         
+        <div class="row">
+            <div class="col-7">
+                <label for="nome" class="form-label">First name</label>
+                <input type="text" id="nome" name="nome" class="form-control" required="">
+            </div>
 
-      <div class="mb-3">
-          <label for="sobrenome" class="form-label">Last name</label>
-          <input type="text" id="sobrenome" name="sobrenome" class="form-control" required="">
-      </div>
+            <div class="col-5">
+                <label for="sobrenome" class="form-label">Last name</label>
+                <input type="text" id="sobrenome" name="sobrenome" class="form-control" required="">
+            </div>
+        </div>
 
-      <div class="mb-3">
-          <label for="usuario" class="form-label">Username</label>
-          <input type="text" id="usuario" name="usuario" class="form-control" required="">
-      </div>
+        <div class="row">
+            <div class="col-12">
+                <label for="usuario" class="form-label">Username</label>
+                <input type="text" id="usuario" name="usuario" class="form-control" required="">
+            </div>
+        </div>
 
-      <div class="mb-3">
-          <label for="email" class="form-label">Email (Optional)</label>
-          <input type="email" id="email" name="email" class="form-control">
-      </div>
+        <div class="row">
+            <div class="col-12">
+                <label for="email" class="form-label">Email (Optional)</label>
+                <input type="email" id="email" name="email" class="form-control">
+            </div>
+        </div>
 
-      <div class="mb-3">
-          <label for="endereco" class="form-label">Adress</label>
-          <input type="text" id="endereco" name="endereco" class="form-control" required="">
-      </div>
+        <div class="row">
+            <div class="col-12">
+                <label for="endereco" class="form-label">Adress</label>
+                <input type="text" id="endereco" name="endereco" class="form-control" required="">
+            </div>
+        </div>
 
-      <div class="mb-3">
-          <label for="endereco2" class="form-label">Adress 2 (Optional)</label>
-          <input type="text" id="endereco2" name="endereco2" class="form-control">
-      </div>
+        <div class="row">
+            <div class="col-12">
+                <label for="endereco2" class="form-label">Adress 2 (Optional)</label>
+                <input type="text" id="endereco2" name="endereco2" class="form-control">
+            </div>
+        </div>
 
-      <div class="mb-3">
-          <label for="pais" class="form-label">Country</label>
-          <select id="pais" name="pais" class="form-select" required="">
-              <option value="Brasil">Brasil</option><option value="Argentina">Argentina</option><option value="Estados Unidos">Estados Unidos</option><option value="Inglaterra">Inglaterra</option><option value="Japão">Japão</option>
-          </select>
-      </div>
+        <div class="row">
+            <div class="col-6">
+                <label for="pais" class="form-label">Country</label>
+                <select id="pais" name="pais" class="form-select" required="">
+                    <option value="">Choose</option><option value="Brasil">Brasil</option><option value="Argentina">Argentina</option><option value="Estados Unidos">Estados Unidos</option><option value="Inglaterra">Inglaterra</option><option value="Japão">Japão</option>
+                </select>
+            </div>
 
-      <div class="mb-3">
-          <label for="estado" class="form-label">State</label>
-          <select id="estado" name="estado" class="form-select" required="">
-              <option value="SP">SP</option><option value="MS">MS</option><option value="MT">MT</option><option value="MG">MG</option><option value="RJ">RJ</option><option value="RS">RS</option><option value="PR">PR</option>
-          </select>
-      </div>
+            <div class="col-4">
+                <label for="estado" class="form-label">State</label>
+                <select id="estado" name="estado" class="form-select" required="">
+                    <option value="">Choose</option><option value="SP">SP</option><option value="MS">MS</option><option value="MT">MT</option><option value="MG">MG</option><option value="RJ">RJ</option><option value="RS">RS</option><option value="PR">PR</option>
+                </select>
+            </div>
 
-      <div class="mb-3">
-          <label for="cep" class="form-label">Zip</label>
-          <input type="number" id="cep" name="cep" class="form-control" required="">
-      </div>
+            <div class="col-2">
+                <label for="cep" class="form-label">Zip</label>
+                <input type="number" id="cep" name="cep" class="form-control" required="">
+            </div>
+        </div>
 
-      <div class="col d-grid gap-2 d-md-flex justify-content-md-end">  
-        <button type="submit" class="btn btn-primary">Enviar</button>
+    <div class="row mt-3">
+      <div class="col-12 d-grid gap-2 d-md-flex justify-content-md-end">  
+        <button type="submit" class="btn btn-primary">Avançar</button>
       </div>
-    </form>
+    </div>
+
+</form>
+</main>
 
 
 </main>

@@ -1,12 +1,31 @@
 *{
-h2{
+h2, h4.col-8{
     text-align: center;
     padding-bottom: 2%;
 }
 h5{
+    padding-top: 2%;;
     padding-bottom: 1%;
 }
 form{
     padding-bottom: 2%;
 }
+.table{
+    border: white;
+}
+#cancel_form4{
+    border-color: black;
+}
+.form5{
+    background-color: rgb(240, 240, 240);
+    border-radius: 1%;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:max-content;
+    display:inline-flexbox;
+    
+
+}
+
 }
